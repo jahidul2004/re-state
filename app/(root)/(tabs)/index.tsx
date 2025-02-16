@@ -10,7 +10,7 @@ export default function Index() {
                 alignItems: "center",
             }}
         >
-            <Text className="font-bold my-10 text-3xl border p-2 text-red-500 rounded">
+            <Text className="w-[80%] text-center font-bold my-10 text-3xl border p-2 text-red-500 rounded">
                 {" "}
                 Welcome
             </Text>
@@ -38,6 +38,11 @@ export default function Index() {
             >
                 Property
             </Link>
+
+            <View className="bg-blue-200 p-4 my-2 w-[80%] rounded">
+                <Text className="text-center">Hello</Text>
+                <Text className="text-center">World</Text>
+            </View>
         </View>
     );
 }
