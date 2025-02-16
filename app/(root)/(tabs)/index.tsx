@@ -39,7 +39,7 @@ export default function Index() {
                 Property
             </Link>
 
-            <View className="bg-blue-200 p-4 my-2 w-[80%] rounded">
+            <View className="p-4 my-2 w-[80%] rounded">
                 <Text className="text-center">Hello</Text>
                 <Text className="text-center">World</Text>
             </View>
